@@ -1,0 +1,221 @@
+p{font-size: 20px;}
+
+#body1{background-image:url('https://media.istockphoto.com/vectors/summer-nature-jungle-print-exotic-plant-tropical-pattern-vector-id1144601461?k=20&m=1144601461&s=612x612&w=0&h=b50Ft1Ee9umopq1Jc-8WgrDJw2PoYsC4mDO-mSDN1js=');}
+#body2{background-image:url('https://cdn02.plentymarkets.com/2brofzsczyt8/item/images/193320/middle/Tapeten-Musterartikel-139016-193320.jpg');}
+#body3{background-color:black;}
+
+#ramka{margin-left: 100px;
+       margin-right :100px;
+       margin-top: 50px;
+       margin-bottom: 50px;
+        background-color:white;}
+#sredni, #prawy, #stopka, #naglowek, #kalkulator{padding:15px;
+                                    box-sizing: border-box;}
+
+#lewy{
+      background-color:lightgrey;}
+/*.glowna{min-height:1100px;}
+.zagr{min-height:1760px;}*/
+#naglowek {background-color:white;}
+
+
+#sredni {background-color:lightyellow;
+       float:left;
+       width:50%;}
+#prawy {background-color:lightgreen;
+       float:left;
+       width:50%;}
+#stopka{background-color:lightblue;
+       clear:both;
+       text-align:center;
+       }
+#kalkulator{background-color:#ffd6f8;
+       clear:both;
+       text-align:center;
+       }
+#litera{font-size:31px;
+        font-family:"Lucida Console", "Courier New", monospace;}
+h1{text-align:center;
+   font-size:45px;
+   font-family:Papyrus, Fantasy;
+   font-style:italic;}
+
+img{margin:15;
+    border:5px solid white;}
+table{/*border:2px solid;*/ 
+      border-collapse: collapse; 
+      text-align:center; 
+      width:100%; }
+/*tr:not(tr.zwykla)*/ #table1 tr ,#table1 td, th.zwykla{border:2px solid;}
+/*tr:nth-child(even) {background-color: white;}
+tr:hover {background-color: green;}*/
+#table2{ 
+      border-collapse: collapse; 
+      text-align:center; 
+      width:100%;
+      background-color:#feebff;
+      box-shadow: 10px 15px #984f9c; }
+#table2 tr{border-bottom:2px solid;
+           height:50px;}
+td.kol1{color:green;
+      font-size:30px;
+      font-weight:bold;
+      width:20%}
+td.kol2{width:20%;
+      font-weight:bold;
+      font-size:20px;}
+td.kol3{width:20%;}
+td.kol4{text-align:right;
+       color:green;
+       font-size:25px;
+       font-weight:bold;
+      width:10%;}
+td.kol5{text-align:left;
+       color:green;
+      width:10%;}
+#kol5{width:20%;}
+table label{padding:5px;
+            font-size:20px;
+            font-weight:bold;}
+table button{width:30px;
+             height:30px;
+             font-size:20px;
+             font-weight:bold;
+             background-color:orange;}
+table button : hover{background-color:darkcyan;}
+button:hover{background-color:#d46804;}
+.butOb{width:100px;
+       height:60px;
+       border-radius: 50px;
+       font-size:20px;
+       font-weight:bold;
+        background-color:#3ea838;
+        margin-bottom:10px;
+        box-shadow: 0 9px #999;}
+.butOb:hover{background-color:#0c8705;}
+.butOb:active{ background-color: #0c8705;
+              box-shadow: 0 5px #666;
+              transform: translateY(8px);}
+.butRe{width:100px;
+       height:60px;
+       border-radius: 50px;
+       font-size:20px;
+       margin-bottom:10px;
+       font-weight:bold;
+        background-color:lightblue;
+        box-shadow: 0 9px #999;}
+.butRe:hover{background-color:#4f979c;}
+.butRe:active{background-color: #4f979c;
+              box-shadow: 0 5px #666;
+              transform: translateY(8px);}
+#NazwaKalk{font-size:30px;
+           color: orange;
+           text-shadow: 0px 0px 1px black, 3px 2px #984f9c;
+           /*text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;*/}
+#gwiazdka{color:black;
+          font-size:15px;}
+#p1{font-size:30px;
+    font-weight:bold;}
+/*#p2{border-bottom:2px dotted;}*/
+th{background-color:#a3d9b0;}
+table.menu{border:none; 
+      border-collapse: collapse; 
+      text-align:center; 
+      width:100%;
+      font-size:30px;
+      font-style:italic;}
+#link {background-color:lightgrey;
+      color: black;
+      padding: 8px 16px;
+      text-decoration: none;
+      text-align: center;}
+#link:hover{background-color:black;
+           linkcolor:white;}
+
+#link_w_menu{color:black;
+     text-decoration:none;}
+#link_w_menu:hover{color:white;
+     text-decoration:none;}
+#kol_menu{
+  background-color: green;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;}
+  
+#active {
+  background-color: gray;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  
+  
+}
+
+th{ width:25%;}
+#img1 {float:left; 
+       width:30%;}
+#img2, #img3{ 
+      width:40%;} 
+      
+.red{color:red;}
+.center{text-align:center;}
+.right{text-align:right;
+       float:right;}
+a{color: blue;}
+
+a:hover{color:coral;}
+
+iframe{width:420; 
+       height:315;
+       }
+
+form{background-image:url('https://t4.ftcdn.net/jpg/00/97/56/99/360_F_97569967_4N99oDPQoFZ0R6In4ZdPp8tsPbb8YQlS.jpg');
+     margin:15px;}
+.white{
+       text-align: center;
+       font-size:25px;
+       }
+input[type=text]{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+input:hover{
+border:2px solid red;}
+input[type=text]:focus {
+  background-color: lightblue;
+}
+input[type=submit] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-shadow: 0 0 3px green;
+  font-size:20px;
+  background-color:yellow;
+}
+input[type=checkbox] {
+  width: 40px;}
+select{width: 30%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;}
+#img3:hover{outline-style: solid;
+               outline-color: red;
+               outline-width: thick;
+               }
+
+form label {font-size:25px;
+       color:white;
+       font-style:bold; }
+
+#img2:hover {
+  transform: rotateY(180deg);
+}
+
+
